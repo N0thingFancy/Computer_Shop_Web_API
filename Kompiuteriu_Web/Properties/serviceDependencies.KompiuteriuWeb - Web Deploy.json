@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "mssql1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/kompiuteriu-webdbserver/databases/Kompiuteriu_Web_db",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/kompiuteriu-webdbserver/databases/KompiuteriuDB",
       "type": "mssql.azure",
-      "connectionId": "ConnectionStrings",
+      "connectionId": "kompiuteriu-webdbserver.database.windows.net",
       "secretStore": null
     }
   }

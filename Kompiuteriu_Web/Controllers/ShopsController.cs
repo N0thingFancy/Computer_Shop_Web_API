@@ -46,7 +46,7 @@ namespace Kompiuteriu_Web.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = UserRoles.SimpleUser)]
+        [Authorize(Roles = UserRoles.Admin)]
         public async Task<ActionResult<ShopDto>> PostAsync(CreateShopDto shopDto, int shopId)
         {
             var authorizationResult = User.Identity.IsAuthenticated;
